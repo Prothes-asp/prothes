@@ -1,0 +1,1 @@
+let valueDisplays=document.querySelectorAll(".num"),interval=4e3;valueDisplays.forEach((t=>{let e=0,l=parseInt(t.getAttribute("data-val")),a=Math.floor(interval/l),n=setInterval((function(){e+=1,t.textContent=e,e==l&&clearInterval(n)}),a)}));
