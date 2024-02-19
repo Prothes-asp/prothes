@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Atomic+Age&family=Concert+One&family=Croissant+One&family=Kenia&family=Lobster&family=Nosifer&display=swap');
+
+#ProtectedDiv  {
+	display: none;
+}
+
+.fntfmly{
+	font-family: 'Concert One';
+}
+
+.passh2{
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+}
+

@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Left Part Start Here */
+
+.left_part_mrtcm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50vh; */
+}
+
+.menu_mrtcm{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /* background: #0bceaf; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #0bceaf;
+    z-index: 1;
+}
+.menu_mrtcm li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 200px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    /* This 100px related transform-origin value */
+    transform: rotate(0deg) translateX(160px);
+}
+
+
+
+/* Circle Item  */
+.menu_mrtcm li a{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #0bceaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / -8 * var(--i))); 
+    box-shadow: 0 0px 4px rgba(0, 0, 0,0.15);
+    transition: 0.5s;
+    color: #fff;
+    overflow: hidden;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.menu_mrtcm li a:hover{
+    color: #0bceaf;
+    background: #fff;
+}
+
+.menu_mrtcm.active li{
+    /* This 8 Related Item Count or item koyta  */
+    transform: rotate(calc(360deg / 8 * var(--i))); 
+}
+
+.toggle_mrtcm{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #0bceaf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0px 4px rgba(0, 0, 0,0.15);
+    font-size: 2em;
+    transition: transform 1.2s;
+}
+
+.menu_mrtcm.active .toggle_mrtcm{
+    transform: rotate(315deg);
+}
+
+.menu_mrtcm.active{
+    border: none;
+}
+
+
+/* For Curve Text */
+
+.circle_mrtcm{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    /* background: red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_mrtcm{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    animation: animtextcircle 10s linear infinite;
+}
+
+@keyframes animtextcircle{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.text_mrtcm h4{
+    font-family: consolas;
+    font-weight: bold;
+    color: #0bceaf;
+}
+
+.text_mrtcm span{
+    position: absolute;
+    left: 50%;
+    font-size: 1.1em;
+    transform-origin: 0 125px;
+    word-spacing: 2em;
+}
+
+/* Left Part End Here  */
+
+
+
+
+/* Right Part Start Here */
+
+.right_part_mrtcm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50vh; */
+}
+
+.right_part_mrtcm h1{
+    font-size: 1.7em;
+}
+.right_part_mrtcm ul{
+    list-style: none;
+}
+
+.right_part_mrtcm ul li i{
+    font-size: 1.5em;
+    color: #0bceaf;
+    cursor: pointer;
+}
+
+
+/* This Class uses for "The Main Five Reason To Choose Me" Item Title Color by Js */
+.jsitemscolor_0{
+    color: #0bceaf;
+}
+
+.jsitemscolor_1{
+    color: #0bceaf;
+}
+
+.jsitemscolor_2{
+    color: #0bceaf;
+}
+
+.jsitemscolor_3{
+    color: #0bceaf;
+}
+
+.jsitemscolor_4{
+    color: #0bceaf;
+}
+
+.jsitemscolor_5{
+    color: #0bceaf;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .menu_mrtcm{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .toggle_mrtcm{
+        width: 70px;
+        height: 70px;
+        font-size: 2em;
+    }
+    .menu_mrtcm li{
+        left: 0;
+        transform-origin: 150px;
+        transform: rotate(0deg) translateX(124px);
+    }
+
+    .menu_mrtcm li a{
+        width: 50px;
+        height: 50px;
+        transform: rotate(calc(360deg / -8 * var(--i))); 
+        font-size: 10px;
+    }
+
+    .circle_mrtcm{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .text_mrtcm{
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+    .text_mrtcm span{
+        font-size: 1em;
+        transform-origin: 0px 100px;
+    }
+
+    
+}

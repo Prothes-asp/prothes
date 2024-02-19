@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Atomic+Age&family=Concert+One&family=Croissant+One&family=Kenia&family=Lobster&family=Nosifer&display=swap');
+
+.canvasBg{
+  /* background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+  background-color: #1e1f26;
+  z-index: 99999999;
+}
+
+
+.loaderDiv{
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99999999;
+}
+
+.loaderDiv p{
+  font-family: "Concert One";
+}
+
+.loaderDiv .n{
+  font-size: 2vw;
+  letter-spacing: 2px;
+  font-family: "Concert One";
+  font-weight: 300;
+  color: #faebd7;
+  z-index: 999999999;
+}
+.n:hover {
+  color: #ff0266;
+  font-weight: 500;
+  font-size: 2.2vw;
+}
+
+.loaderDiv .n{
+  color: #faebd7;
+  text-shadow: 0 0 0 #faebd7;
+  -webkit-animation: loading1 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes loading1 {
+  to {
+    text-shadow: 20px 0 70px #ff0266;
+    color: #0bceaf;
+  }
+}
+.loaderDiv .n:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+}
+.loaderDiv .n:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+}
+.loaderDiv .n:nth-child(2) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #191654;
+  z-index: 99999999;
+}
+
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: white;
+  fill-opacity: 0;
+  stroke-width: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 8s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.name-loader {
+  height: 50px;
+  overflow: hidden;
+}
+
+.logo-name{
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+/* Loader Css End Here */
+
+
+.loading-page h1{
+  font-family: "Concert One";
+  font-size: 20px !important;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 2px;
+  color: #03dac6;
+  transition: all 0.3s ease;
+  z-index: 99999999;
+}
+.loading-page h1:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #ff0266;
+}
+
+.logo-name .m{
+  font-size: 2vw;
+  letter-spacing: 0.7em;
+  font-family: "Concert One";
+  font-weight: 300;
+  color: #faebd7;
+  z-index: 99999999;
+}
+.m:hover {
+  color: #ff0266;
+  font-weight: 500;
+  font-size: 2.2vw;
+}
+
+/* .canvasBg{
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+} */
+
+
+.canvasBg{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99999;
+}
+
+.logo-name .m{
+  color: #faebd7;
+  text-shadow: 0 0 0 #faebd7;
+  -webkit-animation: loading2 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes loading2 {
+  to {
+    text-shadow: 20px 0 70px #ff0266;
+    color: #ff0266;
+  }
+}
+.logo-name .m:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+.logo-name .m:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+.logo-name .m:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+.logo-name .m:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+.logo-name .m:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+.logo-name .m:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+.logo-name .m:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+}
+.logo-name .m:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+}
+
+.logo-name .m:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+}
+.logo-name .m:nth-child(11) {
+  -webkit-animation-delay: 1s;
+}
+.logo-name .m:nth-child(12) {
+  -webkit-animation-delay: 1.1s;
+}
+.logo-name .m:nth-child(13) {
+  -webkit-animation-delay: 1.2s;
+}

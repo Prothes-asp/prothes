@@ -1,0 +1,106 @@
+.main_counter{
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.616), hwb(0 0% 100%)), url('../img/counter_section.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  padding: 100px 0px;
+}
+
+.wrapper {
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
+  transform: translate(0, 0);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.count_container{
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: #21242b;
+  border-bottom: 10px solid #0bceaf;
+}
+i.count_icons{
+  color: #0bceaf;
+  font-size: 2.5em;
+  text-align: center;
+}
+span.num {
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+span.text {
+  color: #e0e0e0;
+  font-size: 1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+@media screen and (max-width: 1367px) {
+  .count_container {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+  .count_container {
+    height: 26vmin;
+    width: 26vmin;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .count_container {
+    width: calc(50% - 50px);
+    height: 30vmin;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    gap: 15px;
+  }
+  .count_container {
+    width: 90%;
+    height: 25vmin;
+    font-size: 8px;
+  }
+}
+
+
+/* My Work Process background fixed banner */
+.my_work_process_banner{
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.616), hwb(0 0% 100%)), url('..//img/home_banner.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
