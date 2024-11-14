@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
-  <p align="center">
-    <a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Hi 👋, I'm+Prothes+Barai" alt="Prothes Barai" /></a>
+  <p align="center">Hi 👋, I'm
+    <a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" /></a>
   </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
 </h1>
 
 <h3 align="center">A passionate Android Software developer & Web Designer from Bangladesh</h3>
