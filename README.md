@@ -1,13 +1,13 @@
-<h1 align="center">Hi 👋, I'm Prothes Barai</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
+  <p align="center">
+    <a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Hi 👋, I'm+Prothes+Barai" alt="Prothes Barai" /></a>
+  </p>
+</h1>
+
 <h3 align="center">A passionate Android Software developer & Web Designer from Bangladesh</h3>
 
-<p align="center">
-  <a href="https://github.com/freitassdev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" /></a>
-</p>
-<p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
-</p>
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="Programming" width="400"/>
