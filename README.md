@@ -1,6 +1,9 @@
 <h1 align="center">
-  <p align="center">Hi 👋, I'm
-    <a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" /></a>
+  <p align="center">
+    <a href="">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Hi 👋, I'm" alt="Hi 👋, I'm" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=0000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" />
+    </a>
   </p>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
 </h1>
