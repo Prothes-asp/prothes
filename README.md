@@ -6,7 +6,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" /></a>
 </p>
 <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer+%26+Frontend+developer!;Wordpress+Expert;Java+Programming+Developer&size=22" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Frontend+developer!;Wordpress+Expert;Java+Developer&size=22" />
 </p>
 
 <p align="center">
