@@ -8,13 +8,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Front-end+developer!;Wordpress+Expert;Java+Developer&size=22" />
 </h1>
 
-<h3 align="center">A passionate Android Software developer & Web Designer from Bangladesh</h3>
-
-
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="Programming" width="400"/>
 </p>
+
+<h3 align="center">A passionate Android Software developer & Web Designer from Bangladesh</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prothesbarai&label=Profile%20views&color=0e75b6&style=flat" alt="prothesbarai" /> </p>
 
