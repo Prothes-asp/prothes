@@ -3,6 +3,7 @@
 // =====================================
 
 
+
 document.getElementById("passwordheading").style.color = "#ffc107";
 document.getElementById("GetPass").style.display = "none";
 
@@ -55,7 +56,7 @@ $("#Submited").click(function(){
         window.GetPass.style.display="block";
         window.Submited.style.display="none";
         swal({
-            title: "Field is Empty ",
+            title: "Field is Empty",
             text: "Please Check The Field !",
             icon: "warning",
             button: "Ok",
@@ -69,4 +70,20 @@ $("#Submited").click(function(){
 function onSubmit2(){
     window.GetPass.style.display="none";
     window.Submited.style.display="block";
+
+
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: "btn btn-success",
+          cancelButton: "btn btn-danger"
+        },
+        buttonsStyling: false
+      });
+
+    swalWithBootstrapButtons.fire({
+        icon: "success",
+        title: "Password Link Below",
+        text: "If you would like to receive this password, please send a message to the link below",
+        footer: '<h4><a href="https://wa.me/01317818826">Get Password</a></h4>'
+    });
 }
