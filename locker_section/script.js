@@ -3,9 +3,10 @@
 // =====================================
 
 
-document.getElementById("psshead").style.color = "#ffc107";
+document.getElementById("passwordheading").style.color = "#ffc107";
+document.getElementById("GetPass").style.display = "none";
 
-function onSubmit() {
+function onSubmit1() {
 
     var a = document.getElementById('password').value;
     let myString = a;
@@ -13,9 +14,12 @@ function onSubmit() {
 
     if (encodedValue == "QXNwITc0MjY3MkAk" ) {
         window.ProtectedDiv.style.display="block"; 
-        document.getElementById("psshead").innerHTML = "Section has been opened";
-        document.getElementById("psshead").style.color = "#0bceaf";
+        document.getElementById("passwordheading").innerHTML = "Section has been opened";
+        document.getElementById("passwordheading").style.color = "#0bceaf";
         document.getElementById("lockerSection").style.display = "none";
+        document.getElementById("GetPass").style.display = "none";
+
+        
 
         // When User Submitted Rignt Password
         swal({
@@ -28,6 +32,8 @@ function onSubmit() {
 
     // When User Submitted Wrong Password
     else if (encodedValue != "QXNwITc0MjY3MkAk") {
+        window.GetPass.style.display="block";
+        window.Submited.style.display="none";
         swal({
             title: "Wrong Password",
             text: "Password Does Not Matched",
@@ -43,9 +49,11 @@ function onSubmit() {
 
 // When Filed is empty 
 
-$("#submit").click(function(){
+$("#Submited").click(function(){
     var password = $("#password").val();
     if(password == ''){
+        window.GetPass.style.display="block";
+        window.Submited.style.display="none";
         swal({
             title: "Field is Empty ",
             text: "Please Check The Field !",
@@ -57,3 +65,8 @@ $("#submit").click(function(){
 
 
 
+// Call Second Button Here ................
+function onSubmit2(){
+    window.GetPass.style.display="none";
+    window.Submited.style.display="block";
+}
