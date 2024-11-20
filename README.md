@@ -28,9 +28,9 @@
 
 - 🤝 I’m looking for help with **Android Apps Development**
 
-- 👨‍💻 All of my projects are available at [https://prothesbarai.github.io/prothesbarai/](https://prothesbarai.github.io/prothesbarai/)
+- 👨‍💻 All of my projects are available at [My Website](https://prothesbarai.github.io/prothesbarai/)
 
-- 📄 Know about my experiences [https://prothesbarai.github.io/prothesbarai/](https://prothesbarai.github.io/prothesbarai/)
+- 📄 Know about my experiences : [Click Here](https://prothesbarai.github.io/prothesbarai/pages/skills.html)
 
 - ⚡ Fun fact **I'm Funny**
 
