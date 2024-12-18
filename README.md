@@ -5,7 +5,10 @@
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=0000&color=00DBFF&center=true&vCenter=true&repeat=false&random=false&width=225&height=45&lines=Prothes+Barai" alt="Prothes Barai" />
     </a>
   </p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Android+Software+Developer!;Front-end+developer!;Wordpress+Expert;Java+Developer&size=22" />
+  <!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00DBFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Android+Software+Developer!;Front-end+developer!;Wordpress+Expert;Java+Developer&size=22" /> -->
+  <h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pedro+Muniz!;" />
+</h1>
 </h1>
 
 <p align="center">
